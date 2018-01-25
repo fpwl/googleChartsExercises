@@ -1,0 +1,39 @@
+*{
+	margin:0;
+	padding:0;
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+	text-align: center;
+	padding-top: 20px;
+}
+.informationContainer{
+	width: 1000px;
+	height: 600px;
+	position: relative;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.informationContainer #chartLocation{
+	float: left;
+	width: 70%;
+	height: 600px;
+	background-color: rgb(159, 177, 185);
+}
+.informationContainer #chartInformationLocation {
+	float: right;
+	width: 30%;
+	height: 600px;
+	background-color: rgb(82, 76, 109);
+	text-align: center;
+}
+.informationContainer #chartInformationLocation h2{
+	margin: 20px;
+	color: white;
+}
+.informationContainer #chartInformationLocation h3{
+	margin-top: 20px;
+}
